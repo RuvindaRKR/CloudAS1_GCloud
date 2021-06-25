@@ -1,0 +1,10 @@
+runtime: php74
+
+handlers:
+- url: /index.php
+  script: auto
+
+- url: .*
+  script: auto
+
+#Reference : [2]"app.yaml Configuration File", Google Cloud, 2021. [Online]. Available: https://cloud.google.com/appengine/docs/standard/php7/config/appref. [Accessed: 09- Apr- 2021].

@@ -1,0 +1,6 @@
+{
+    "require": {
+        "google/cloud-datastore": "^1.12",
+        "google/cloud-storage": "^1.23"
+    }
+}
